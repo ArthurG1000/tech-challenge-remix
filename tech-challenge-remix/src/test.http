@@ -1,0 +1,18 @@
+GET http://localhost:3001/api/getassets
+
+############
+
+POST http://localhost:3001/api/postmessage
+Content-Type: application/json
+
+{
+  "name" : "Neymar",
+  "email": "neymar10@gmail.com",
+  "message": "J'aurais pas du aller au PSG"
+}
+
+#############
+ GET http://localhost:3001/api/postmessage
+
+
+ ##############
